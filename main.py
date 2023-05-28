@@ -20,5 +20,11 @@ def download_song(url):
     except:
         print('Failed to download song')
 
-link = 'https://www.youtube.com/watch?v=86PRtZsEv9g'
-download_song(link)
+if __name__ == '__main__':
+
+    while True:
+        print('Paste youtube link: ')
+        link = input('>> ')
+        download_song(link)
+
+    

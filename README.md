@@ -1,13 +1,13 @@
 ## YouTubeToMP3
 
-#### installation:
+### Installation:
 ```
 git clone https://github.com/Petar1304/YouTubeToMP3.git
 cd YouTubeToMP3
 pip3 install -r requirements.txt
 ```
 
-#### Usage:
+### Usage:
 - Change `DIR` variable in main.py
 - Run in terminal: `python3 main.py`
 

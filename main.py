@@ -11,7 +11,7 @@ def download_song(url):
     try:
         out_file = audio.download(DIR)
         base, ext = os.path.splitext(out_file)
-        filepath = DIR + author + ' - ' + title + '.mp3'
+        filepath = DIR + author + ' - ' + title + '.mp4'
         os.rename(out_file, filepath)
 
         print('Downloaded')
@@ -20,9 +20,8 @@ def download_song(url):
 
 if __name__ == '__main__':
     print('Enter 0 to exit')
-    while (link != '0'):
+    link = ''
+while (link != '0'):
         print('Paste youtube link: ')
         link = input('>> ')
         download_song(link)
-
-    
